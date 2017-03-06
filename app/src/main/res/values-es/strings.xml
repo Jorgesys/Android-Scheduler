@@ -1,0 +1,38 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Scheduler</string>
+    <string name="intro_message">¡Bienvenido a <b>Scheduler</b>!\n
+             Este ejemplo muestra cómo puede programar una alarma que hace que un servicio
+             Ser iniciado. Esto es útil cuando desea programar alarmas que inicien
+             Operaciones de larga duración. Haga clic en START ALARM para activar una alarma para comprobar
+             La página de inicio de Google para un doodle personalizado una vez al día. Si la aplicación encuentra un doodle,
+             Publica una \ "Doodle Alert \" como una notificación. Haga clic en CANCELAR ALARMA para cancelar la
+             alarma. Una vez activada la alarma, se reinicia automáticamente cuando el dispositivo está
+             Reiniciado\n<font color="#00FF00">La alarma se configura por default a las 9:30 AM (9:30)</font>\n
+             Si configuras una nueva alarma onHandleIntent() sera llamado en cada día.</string>
+    <string name="start_text">Iniciar Alarma</string>
+    <string name="cancel_text">Cancelar alarma</string>
+    <string name="doodle_alert">Doodle Alert</string>
+    <string name="doodle_found">¡Hay un doodle de Google hoy!</string>
+    <string name="no_doodle">Ningún Google doodle hoy.</string>
+    <string name="connection_error">Error de conexión.</string>
+    <string name="config_alarm">Cambiar alarma.</string>
+    <string name="hint_date">formato hh:mm</string>
+    <string name="msg_date_to_set">Hora a configurar:</string>
+
+</resources>
